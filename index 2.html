@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sukho Thai Kitchen | สุโข</title>
+<meta name="description" content="Sukho Thai Kitchen. Thai street food, cooked to order and packed to go.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Noto+Sans+Thai:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className+=' js'</script></head><body>
+
+<!-- GROUP 0: HEADER -->
+<header><div class="bar"><a class="logo" href="#top">SUKHO<small>สุโข</small></a><a class="btn sm" href="#info">Order for pickup</a></div></header>
+
+<!-- GROUP 1: STORY (สุโข: ease and happiness) -->
+<section class="hero" id="top"><div class="wrap">
+<div class="copy"><div class="kick">Thai takeaway</div>
+<h1><span class="thb">สุโข</span>: ease and happiness</h1>
+<p class="s">Sukho takes its name from the Thai word for happiness. We cook the food people crave on a busy street: hot woks, bright herbs and sauces with real depth. Every order is cooked when you place it and packed to go, so a quick takeaway feels as good as a long dinner with family.</p>
+<div class="row"><a class="btn" href="#info">Order for pickup</a><a class="btn g" href="#info">See menu</a></div>
+<div class="open" id="open" hidden><i></i><span id="openTxt"></span></div></div>
+<div class="photo"><img src="storefront.jpg" alt="Sukho Thai Kitchen storefront with a green and gold sign"></div>
+</div></section>
+<div class="thai" aria-hidden="true"></div>
+
+<!-- GROUP 2: FOOD ALLERGIES -->
+<section class="allergy" aria-labelledby="alg" tabindex="0">
+<h2 class="sr-only" id="alg">Food allergies</h2>
+<div class="allergy-track">
+<div class="allergy-group">
+<p><span class="allergy-mark" aria-hidden="true">!</span><strong>Food allergies</strong><span class="allergy-dot" aria-hidden="true"></span>Please tell us about any food allergy when you order, so we can look after you properly.</p>
+<p aria-hidden="true"><span class="allergy-mark">!</span><strong>Food allergies</strong><span class="allergy-dot"></span>Please tell us about any food allergy when you order, so we can look after you properly.</p>
+</div>
+<div class="allergy-group" aria-hidden="true">
+<p><span class="allergy-mark">!</span><strong>Food allergies</strong><span class="allergy-dot"></span>Please tell us about any food allergy when you order, so we can look after you properly.</p>
+<p><span class="allergy-mark">!</span><strong>Food allergies</strong><span class="allergy-dot"></span>Please tell us about any food allergy when you order, so we can look after you properly.</p>
+</div>
+</div>
+</section>
+
+<!-- GROUP 3: STORE INFO (contact, hours, map) -->
+<section class="info" id="info"><div class="in"><div class="head"><div class="lot"><svg viewBox="-40 -74 80 150" aria-hidden="true"><path d="M0-62C-2-54-8-46-14-36C-30-18-38 6-30 26C-22 46-8 58 0 72C8 58 22 46 30 26C38 6 30-18 14-36C8-46 2-54 0-62Z"/><path d="M0-62c-3-4-1-8 0-9c1 1 3 5 0 9"/><path d="M0-30C-8-18-14-6-10 10C-6 22 0 30 0 36C0 30 6 22 10 10C14-6 8-18 0-30Z"/><path d="M0-8C-4 0-5 8 0 16C5 8 4 0 0-8Z"/><path d="M-12 40C-26 34-32 18-26 4C-20 14-14 20-6 28"/><path d="M12 40C26 34 32 18 26 4C20 14 14 20 6 28"/></svg></div><h2>Find us</h2><div class="thsub"></div></div>
+<div class="cols">
+<div class="box dark"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.4 7-12a7 7 0 10-14 0c0 5.6 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg></div><h3>Visit &amp; contact</h3>
+<ul class="rows"><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.4 7-12a7 7 0 10-14 0c0 5.6 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg><span>39 Fenchurch Street<br>Glen Innes, Auckland 1072</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6.5L20.5 7"/></svg><a class="mail" href="mailto:Sukho39.gi@gmail.com">Sukho39.gi@gmail.com</a></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg><span data-phone>Phone number to be added.</span></li></ul>
+<a class="btn" data-call hidden>Call to order</a><a class="btn g2" href="https://www.google.com/maps/search/?api=1&amp;query=39+Fenchurch+Street+Glen+Innes+Auckland+1072" target="_blank" rel="noopener">Get directions</a></div>
+<div class="box"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 6.5V12l3.8 2.4"/></svg></div><h3>Opening hours</h3><div id="hours"><table><tr><td>Monday</td><td>Closed</td></tr><tr><td>Tuesday</td><td>4 pm – 9 pm</td></tr><tr><td>Wednesday</td><td>4 pm – 9 pm</td></tr><tr><td>Thursday</td><td>4 pm – 9 pm</td></tr><tr><td>Friday</td><td>4 pm – 9 pm</td></tr><tr><td>Saturday</td><td>12 pm – 9 pm</td></tr><tr><td>Sunday</td><td>12 pm – 9 pm</td></tr></table></div><p class="tk">Takeaway only. Cooked fresh when you order.</p></div></div>
+<div class="map"><iframe title="Map to Sukho Thai Kitchen, 39 Fenchurch Street, Glen Innes" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=39+Fenchurch+Street,+Glen+Innes,+Auckland+1072&amp;output=embed"></iframe></div></div></section>
+<div class="thai" aria-hidden="true"></div>
+
+<a class="btn float" href="#info">Order for pickup</a>
+<script>
+/* EDIT HERE. Phone: put your number between the quotes.
+   Hours: 24-hour clock, New Zealand time, use null for a closed day.
+   Example: var HOURS={mon:["11:00","21:00"],tue:["11:00","21:00"],wed:null,thu:["11:00","21:00"],fri:["11:00","21:00"],sat:["11:00","21:00"],sun:null}; */
+var PHONE="";
+var HOURS={mon:null,tue:["16:00","21:00"],wed:["16:00","21:00"],thu:["16:00","21:00"],fri:["16:00","21:00"],sat:["12:00","21:00"],sun:["12:00","21:00"]};
+(function(){
+ var q=function(s){return document.querySelector(s)},qa=function(s){return document.querySelectorAll(s)};
+ var rv=qa('.rv');
+ if('IntersectionObserver' in window){var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.15});rv.forEach(function(el){io.observe(el)})}else{rv.forEach(function(el){el.classList.add('in')})}
+ var fl=q('.float'),hv=true,cv=false,u=function(){if(fl)fl.classList.toggle('show',!hv&&!cv)};
+ if(fl&&'IntersectionObserver' in window){new IntersectionObserver(function(e){hv=e[0].isIntersecting;u()}).observe(q('.hero'));new IntersectionObserver(function(e){cv=e[0].isIntersecting;u()}).observe(q('.info'))}
+ if(PHONE){qa('[data-call]').forEach(function(a){a.href='tel:'+PHONE.replace(/[^+\d]/g,'');a.hidden=false});qa('[data-phone]').forEach(function(p){p.textContent=PHONE})}
+ if(HOURS){
+  var N={mon:'Mon',tue:'Tue',wed:'Wed',thu:'Thu',fri:'Fri',sat:'Sat',sun:'Sun'};
+  var f=function(s){var p=s.split(':'),h=+p[0],a=h>=12?'pm':'am';h=h%12||12;return h+(p[1]!=='00'?':'+p[1]:'')+' '+a};
+  var D0={mon:'Monday',tue:'Tuesday',wed:'Wednesday',thu:'Thursday',fri:'Friday',sat:'Saturday',sun:'Sunday'},td=new Intl.DateTimeFormat('en-NZ',{timeZone:'Pacific/Auckland',weekday:'short'}).format(new Date()).slice(0,3).toLowerCase();
+  q('#hours').innerHTML='<table>'+Object.keys(N).map(function(k){return '<tr'+(k===td?' class="today"':'')+'><td>'+D0[k]+'</td><td>'+(HOURS[k]?f(HOURS[k][0])+' – '+f(HOURS[k][1]):'Closed')+'</td></tr>'}).join('')+'</table>';
+  var o={};new Intl.DateTimeFormat('en-NZ',{timeZone:'Pacific/Auckland',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date()).forEach(function(p){o[p.type]=p.value});
+  var t=HOURS[o.weekday.slice(0,3).toLowerCase()],m=(+o.hour%24)*60+(+o.minute),c=function(s){var p=s.split(':');return +p[0]*60+ +p[1]};
+  var on=t&&m>=c(t[0])&&m<c(t[1]);
+  q('#openTxt').textContent=on?'Open now · until '+f(t[1]):'Closed right now';q('#open').classList.toggle('c',!on);q('#open').hidden=false;
+ }
+})();
+</script>
+</body></html>
